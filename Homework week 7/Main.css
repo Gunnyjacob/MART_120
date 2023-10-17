@@ -1,0 +1,20 @@
+div{
+	font-family:'Franklin Gothic'; 
+	color:darkred;
+}
+
+span{
+	font-family:'Microsoft Himalaya';
+	color:darkred;
+
+}
+.myclass{
+	font-size:xx-large;
+	font-style:italic;
+	color:crimson;
+}
+#myid {
+	font-size: xx-large;
+	font-style: italic;
+	color:darkcyan
+}
