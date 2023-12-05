@@ -96,8 +96,8 @@ function drawCircle() {
     circle(CircleX, CircleY, CircleD);
 }
 function circleSpeed() {
-    CircleXSpeed = 6
-    CircleYSpeed = 9
+    CircleXSpeed = getRandomNumber()
+    CircleYSpeed = getRandomNumber()
 
     CircleX += CircleXSpeed;
     CircleY += CircleYSpeed;
@@ -160,5 +160,7 @@ function mouseClicked() {
     obstacleShapeX = mouseX;
     obstacleShapeY = mouseY;
 }
-
+function getRandomNumber(number) {
+    return Math.floor(Math.random() * number) + 10;
+}
 
